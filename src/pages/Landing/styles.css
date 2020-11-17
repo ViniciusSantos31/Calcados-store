@@ -1,0 +1,50 @@
+.content {
+    background: black;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+
+
+
+.inicial-info h1 {
+    font-size: 180px;
+}
+
+.inicial-info p {
+    font-size: 18px;
+}
+
+.buttons {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.buttons .link {
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+    height: 60px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: black;
+    border: 2px solid black;
+    transition: all 0.4s ease-in-out;
+}
+
+.buttons .link:hover {
+    color: white;
+    background: black;
+    border: 2px solid white;
+}

@@ -1,0 +1,47 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 200px;
+    min-height: 332.5px;
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.card .infos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    white-space: nowrap; 
+    width: 150px; 
+    height: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+
+.card .infos span {
+    font-weight: 700;
+}
+.card .infos p{
+    width: 100%;
+    display: inline-block;
+}
+
+.card img {
+    width: 150px;
+}
+
+.heart {
+    position: absolute;
+    transform: translate(-75px, 30px);
+    width: 25px;
+    height: 25px;
+}
+
+.heart {
+    width: 30px;
+}
