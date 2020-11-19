@@ -7,27 +7,39 @@ const Home = () => {
     const dados = [{
         url: "https://imgcentauro-a.akamaihd.net/230x230/9463510R.jpg",
         nome: "Tênis Nike Renew Run - Feminino",
-        price: 199.00
+        price: 199.00,
+        hate: 4.1,
+        fav: true
     },{
         url: "https://imgcentauro-a.akamaihd.net/230x230/94444703.jpg",
         nome: "Tênis Nike Renew Run - Feminino",
-        price: 10.00
+        price: 10.00,
+        hate: 1,
+        fav: false
     },{
         url: "https://imgcentauro-a.akamaihd.net/230x230/94785731.jpg",
         nome: "Tênis Nike Renew Run - Feminino",
-        price: 150.00
+        price: 150.00,
+        hate: 4,
+        fav: true
     },{
         url: "https://imgcentauro-a.akamaihd.net/230x230/94290602.jpg",
         nome: "Tênis Nike Renew Run - Feminino",
-        price: 100.00
+        price: 100.00,
+        hate: 2,
+        fav: true
     },{
         url: "https://imgcentauro-a.akamaihd.net/230x230/9494020R.jpg",
         nome: "Tênis Nike Renew Run - Feminino",
-        price: 1999.00
+        price: 1999.00,
+        hate: 1,
+        fav: true
     },{
         url: "https://imgcentauro-a.akamaihd.net/230x230/94785902.jpg",
         nome: "Tênis Nike Renew Run - Feminino",
-        price: 1200.00
+        price: 1200.00,
+        hate: 5,
+        fav: true
     }]
 
     return(
