@@ -59,3 +59,7 @@
     width: 20px;
     fill: yellow;
 }
+
+.inverse .stars .img {
+    margin: 0;
+}
